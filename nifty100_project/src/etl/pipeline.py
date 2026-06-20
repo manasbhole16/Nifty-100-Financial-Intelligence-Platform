@@ -4,6 +4,8 @@ from sqlalchemy.exc import IntegrityError
 from src.etl.database import SessionLocal
 from src.etl.models import Company
 from src.etl.loader import normalize_ticker
+# NEW DAY 5 IMPORT: Bring in our Data Quality rules
+from src.etl.validation import validate_company_data
 
 def run_company_pipeline():
     print("🚀 Starting ETL Pipeline for Companies...")
@@ -25,7 +27,12 @@ def run_company_pipeline():
         
         # 3. Clean the tickers using our Day 2 logic
         df['company_id'] = df['company_id'].apply(normalize_ticker)
-        df = df.dropna(subset=['company_id'])
+        
+        # ---------------------------------------------------------
+        # NEW DAY 5 CODE: Pass the data through our DQ Bouncer
+        # ---------------------------------------------------------
+        df = validate_company_data(df)
+        # ---------------------------------------------------------
 
         records_inserted = 0
 
