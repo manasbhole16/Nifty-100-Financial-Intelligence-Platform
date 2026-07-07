@@ -1,0 +1,13 @@
+table,source_file,rows_in,rows_out,rejected,timestamp,runtime_s
+companies,companies.xlsx,92,92,0,2026-07-07T09:30:16,0.0083
+profitandloss,profitandloss.xlsx,1276,1070,206,2026-07-07T09:30:16,0.0168
+balancesheet,balancesheet.xlsx,1312,1140,172,2026-07-07T09:30:16,0.0156
+cashflow,cashflow.xlsx,1187,1056,131,2026-07-07T09:30:16,0.0117
+analysis,analysis.xlsx,20,16,4,2026-07-07T09:30:16,0.0053
+documents,documents.xlsx,1585,1457,128,2026-07-07T09:30:16,0.0121
+prosandcons,prosandcons.xlsx,16,14,2,2026-07-07T09:30:16,0.0053
+sectors,sectors.xlsx,92,92,0,2026-07-07T09:30:16,0.0056
+market_cap,market_cap.xlsx,552,552,0,2026-07-07T09:30:16,0.0093
+stock_prices,stock_prices.xlsx,5520,5520,0,2026-07-07T09:30:16,0.0483
+peer_groups,peer_groups.xlsx,56,56,0,2026-07-07T09:30:16,0.006
+financial_ratios_reference,financial_ratios.xlsx,1184,1160,24,2026-07-07T09:30:16,0.0167

@@ -1,0 +1,422 @@
+2026-07-06 18:22:24 | INFO | ============================================================
+2026-07-06 18:22:24 | INFO | Starting full ETL pipeline run.
+2026-07-06 18:22:25 | INFO | Loaded companies.xlsx: 92 rows, 12 cols (header=1)
+2026-07-06 18:22:25 | INFO | Loaded profitandloss.xlsx: 1276 rows, 15 cols (header=1)
+2026-07-06 18:22:25 | INFO | Loaded balancesheet.xlsx: 1312 rows, 13 cols (header=1)
+2026-07-06 18:22:25 | INFO | Loaded cashflow.xlsx: 1187 rows, 7 cols (header=1)
+2026-07-06 18:22:25 | INFO | Loaded analysis.xlsx: 20 rows, 6 cols (header=1)
+2026-07-06 18:22:25 | INFO | Loaded documents.xlsx: 1585 rows, 4 cols (header=1)
+2026-07-06 18:22:25 | INFO | Loaded prosandcons.xlsx: 16 rows, 4 cols (header=1)
+2026-07-06 18:22:25 | INFO | Loaded sectors.xlsx: 92 rows, 6 cols (header=0)
+2026-07-06 18:22:26 | INFO | Loaded stock_prices.xlsx: 5520 rows, 9 cols (header=0)
+2026-07-06 18:22:26 | INFO | Loaded market_cap.xlsx: 552 rows, 9 cols (header=0)
+2026-07-06 18:22:26 | INFO | Loaded financial_ratios.xlsx: 1184 rows, 16 cols (header=0)
+2026-07-06 18:22:26 | INFO | Loaded peer_groups.xlsx: 56 rows, 4 cols (header=0)
+2026-07-06 18:22:26 | WARNING | DQ-02 CRITICAL: 26 duplicate rows in profitandloss. Deduplicating (keep last).
+2026-07-06 18:22:26 | WARNING | DQ-02 CRITICAL: 138 duplicate rows in balancesheet. Deduplicating (keep last).
+2026-07-06 18:22:26 | WARNING | DQ-02 CRITICAL: 70 duplicate rows in cashflow. Deduplicating (keep last).
+2026-07-06 18:22:26 | WARNING | DQ-07 CRITICAL: 102 rows with bad year format rejected from profitandloss.
+2026-07-06 18:22:26 | WARNING | DQ-07 CRITICAL: 60 rows with bad year format rejected from balancesheet.
+2026-07-06 18:22:26 | WARNING | DQ-03 CRITICAL: 91 orphan rows rejected from profitandloss.
+2026-07-06 18:22:26 | WARNING | DQ-03 CRITICAL: 25 orphan rows rejected from balancesheet.
+2026-07-06 18:22:26 | WARNING | DQ-03 CRITICAL: 96 orphan rows rejected from cashflow.
+2026-07-06 18:22:26 | WARNING | DQ-03 CRITICAL: 4 orphan rows rejected from analysis.
+2026-07-06 18:22:26 | WARNING | DQ-03 CRITICAL: 128 orphan rows rejected from documents.
+2026-07-06 18:22:26 | WARNING | DQ-03 CRITICAL: 2 orphan rows rejected from prosandcons.
+2026-07-06 18:22:26 | WARNING | DQ-03 CRITICAL: 24 orphan rows rejected from financial_ratios_reference.
+2026-07-06 18:22:49 | INFO | ============================================================
+2026-07-06 18:22:49 | INFO | Starting full ETL pipeline run.
+2026-07-06 18:22:49 | INFO | Loaded companies.xlsx: 92 rows, 12 cols (header=1)
+2026-07-06 18:22:50 | INFO | Loaded profitandloss.xlsx: 1276 rows, 15 cols (header=1)
+2026-07-06 18:22:50 | INFO | Loaded balancesheet.xlsx: 1312 rows, 13 cols (header=1)
+2026-07-06 18:22:50 | INFO | Loaded cashflow.xlsx: 1187 rows, 7 cols (header=1)
+2026-07-06 18:22:50 | INFO | Loaded analysis.xlsx: 20 rows, 6 cols (header=1)
+2026-07-06 18:22:50 | INFO | Loaded documents.xlsx: 1585 rows, 4 cols (header=1)
+2026-07-06 18:22:50 | INFO | Loaded prosandcons.xlsx: 16 rows, 4 cols (header=1)
+2026-07-06 18:22:50 | INFO | Loaded sectors.xlsx: 92 rows, 6 cols (header=0)
+2026-07-06 18:22:51 | INFO | Loaded stock_prices.xlsx: 5520 rows, 9 cols (header=0)
+2026-07-06 18:22:51 | INFO | Loaded market_cap.xlsx: 552 rows, 9 cols (header=0)
+2026-07-06 18:22:51 | INFO | Loaded financial_ratios.xlsx: 1184 rows, 16 cols (header=0)
+2026-07-06 18:22:51 | INFO | Loaded peer_groups.xlsx: 56 rows, 4 cols (header=0)
+2026-07-06 18:22:51 | WARNING | DQ-02 CRITICAL: 26 duplicate rows in profitandloss. Deduplicating (keep last).
+2026-07-06 18:22:51 | WARNING | DQ-02 CRITICAL: 138 duplicate rows in balancesheet. Deduplicating (keep last).
+2026-07-06 18:22:51 | WARNING | DQ-02 CRITICAL: 70 duplicate rows in cashflow. Deduplicating (keep last).
+2026-07-06 18:22:51 | WARNING | DQ-07 CRITICAL: 102 rows with bad year format rejected from profitandloss.
+2026-07-06 18:22:51 | WARNING | DQ-07 CRITICAL: 60 rows with bad year format rejected from balancesheet.
+2026-07-06 18:22:51 | WARNING | DQ-03 CRITICAL: 91 orphan rows rejected from profitandloss.
+2026-07-06 18:22:51 | WARNING | DQ-03 CRITICAL: 25 orphan rows rejected from balancesheet.
+2026-07-06 18:22:51 | WARNING | DQ-03 CRITICAL: 96 orphan rows rejected from cashflow.
+2026-07-06 18:22:51 | WARNING | DQ-03 CRITICAL: 4 orphan rows rejected from analysis.
+2026-07-06 18:22:51 | WARNING | DQ-03 CRITICAL: 128 orphan rows rejected from documents.
+2026-07-06 18:22:51 | WARNING | DQ-03 CRITICAL: 2 orphan rows rejected from prosandcons.
+2026-07-06 18:22:51 | WARNING | DQ-03 CRITICAL: 24 orphan rows rejected from financial_ratios_reference.
+2026-07-06 18:22:51 | INFO | DQ-13: live URL validation disabled (VALIDATE_DOCUMENT_URLS not set). Marking all Annual_Report URLs as unchecked.
+2026-07-06 18:22:51 | INFO | DQ-15 INFO: 1140 balance sheet rows are exactly balanced (strict).
+2026-07-06 18:22:51 | INFO | Validation complete: 766 CRITICAL, 323 WARNING flags across 1089 total rows.
+2026-07-06 18:22:51 | INFO | Wrote 1089 DQ findings to output/validation_failures.csv
+2026-07-06 18:22:51 | INFO | Loaded companies: 92 rows written, 0 rejected (0.0106s)
+2026-07-06 18:22:51 | INFO | Loaded profitandloss: 1070 rows written, 206 rejected (0.0242s)
+2026-07-06 18:22:51 | INFO | Loaded balancesheet: 1140 rows written, 172 rejected (0.0267s)
+2026-07-06 18:22:51 | INFO | Loaded cashflow: 1056 rows written, 131 rejected (0.0173s)
+2026-07-06 18:22:51 | INFO | Loaded analysis: 16 rows written, 4 rejected (0.0055s)
+2026-07-06 18:23:14 | INFO | ============================================================
+2026-07-06 18:23:14 | INFO | Starting full ETL pipeline run.
+2026-07-06 18:23:14 | INFO | Loaded companies.xlsx: 92 rows, 12 cols (header=1)
+2026-07-06 18:23:14 | INFO | Loaded profitandloss.xlsx: 1276 rows, 15 cols (header=1)
+2026-07-06 18:23:14 | INFO | Loaded balancesheet.xlsx: 1312 rows, 13 cols (header=1)
+2026-07-06 18:23:14 | INFO | Loaded cashflow.xlsx: 1187 rows, 7 cols (header=1)
+2026-07-06 18:23:14 | INFO | Loaded analysis.xlsx: 20 rows, 6 cols (header=1)
+2026-07-06 18:23:14 | INFO | Loaded documents.xlsx: 1585 rows, 4 cols (header=1)
+2026-07-06 18:23:14 | INFO | Loaded prosandcons.xlsx: 16 rows, 4 cols (header=1)
+2026-07-06 18:23:14 | INFO | Loaded sectors.xlsx: 92 rows, 6 cols (header=0)
+2026-07-06 18:23:15 | INFO | Loaded stock_prices.xlsx: 5520 rows, 9 cols (header=0)
+2026-07-06 18:23:15 | INFO | Loaded market_cap.xlsx: 552 rows, 9 cols (header=0)
+2026-07-06 18:23:15 | INFO | Loaded financial_ratios.xlsx: 1184 rows, 16 cols (header=0)
+2026-07-06 18:23:15 | INFO | Loaded peer_groups.xlsx: 56 rows, 4 cols (header=0)
+2026-07-06 18:23:15 | WARNING | DQ-02 CRITICAL: 26 duplicate rows in profitandloss. Deduplicating (keep last).
+2026-07-06 18:23:15 | WARNING | DQ-02 CRITICAL: 138 duplicate rows in balancesheet. Deduplicating (keep last).
+2026-07-06 18:23:15 | WARNING | DQ-02 CRITICAL: 70 duplicate rows in cashflow. Deduplicating (keep last).
+2026-07-06 18:23:15 | WARNING | DQ-07 CRITICAL: 102 rows with bad year format rejected from profitandloss.
+2026-07-06 18:23:15 | WARNING | DQ-07 CRITICAL: 60 rows with bad year format rejected from balancesheet.
+2026-07-06 18:23:15 | WARNING | DQ-03 CRITICAL: 91 orphan rows rejected from profitandloss.
+2026-07-06 18:23:15 | WARNING | DQ-03 CRITICAL: 25 orphan rows rejected from balancesheet.
+2026-07-06 18:23:15 | WARNING | DQ-03 CRITICAL: 96 orphan rows rejected from cashflow.
+2026-07-06 18:23:15 | WARNING | DQ-03 CRITICAL: 4 orphan rows rejected from analysis.
+2026-07-06 18:23:15 | WARNING | DQ-03 CRITICAL: 128 orphan rows rejected from documents.
+2026-07-06 18:23:15 | WARNING | DQ-03 CRITICAL: 2 orphan rows rejected from prosandcons.
+2026-07-06 18:23:15 | WARNING | DQ-03 CRITICAL: 24 orphan rows rejected from financial_ratios_reference.
+2026-07-06 18:23:15 | INFO | DQ-13: live URL validation disabled (VALIDATE_DOCUMENT_URLS not set). Marking all Annual_Report URLs as unchecked.
+2026-07-06 18:23:15 | INFO | DQ-15 INFO: 1140 balance sheet rows are exactly balanced (strict).
+2026-07-06 18:23:15 | INFO | Validation complete: 766 CRITICAL, 323 WARNING flags across 1089 total rows.
+2026-07-06 18:23:15 | INFO | Wrote 1089 DQ findings to output/validation_failures.csv
+2026-07-06 18:23:16 | INFO | Loaded companies: 92 rows written, 0 rejected (0.0113s)
+2026-07-06 18:23:16 | INFO | Loaded profitandloss: 1070 rows written, 206 rejected (0.0239s)
+2026-07-06 18:23:16 | INFO | Loaded balancesheet: 1140 rows written, 172 rejected (0.0229s)
+2026-07-06 18:23:16 | INFO | Loaded cashflow: 1056 rows written, 131 rejected (0.0167s)
+2026-07-06 18:23:16 | INFO | Loaded analysis: 16 rows written, 4 rejected (0.0061s)
+2026-07-06 18:23:16 | INFO | Loaded documents: 1457 rows written, 128 rejected (0.0167s)
+2026-07-06 18:23:16 | INFO | Loaded prosandcons: 14 rows written, 2 rejected (0.0057s)
+2026-07-06 18:23:16 | INFO | Loaded sectors: 92 rows written, 0 rejected (0.0076s)
+2026-07-06 18:23:16 | INFO | Loaded market_cap: 552 rows written, 0 rejected (0.015s)
+2026-07-06 18:23:16 | INFO | Loaded stock_prices: 5520 rows written, 0 rejected (0.125s)
+2026-07-06 18:23:16 | INFO | Loaded peer_groups: 56 rows written, 0 rejected (0.0071s)
+2026-07-06 18:23:30 | INFO | ============================================================
+2026-07-06 18:23:30 | INFO | Starting full ETL pipeline run.
+2026-07-06 18:23:31 | INFO | Loaded companies.xlsx: 92 rows, 12 cols (header=1)
+2026-07-06 18:23:31 | INFO | Loaded profitandloss.xlsx: 1276 rows, 15 cols (header=1)
+2026-07-06 18:23:31 | INFO | Loaded balancesheet.xlsx: 1312 rows, 13 cols (header=1)
+2026-07-06 18:23:31 | INFO | Loaded cashflow.xlsx: 1187 rows, 7 cols (header=1)
+2026-07-06 18:23:31 | INFO | Loaded analysis.xlsx: 20 rows, 6 cols (header=1)
+2026-07-06 18:23:31 | INFO | Loaded documents.xlsx: 1585 rows, 4 cols (header=1)
+2026-07-06 18:23:31 | INFO | Loaded prosandcons.xlsx: 16 rows, 4 cols (header=1)
+2026-07-06 18:23:31 | INFO | Loaded sectors.xlsx: 92 rows, 6 cols (header=0)
+2026-07-06 18:23:32 | INFO | Loaded stock_prices.xlsx: 5520 rows, 9 cols (header=0)
+2026-07-06 18:23:32 | INFO | Loaded market_cap.xlsx: 552 rows, 9 cols (header=0)
+2026-07-06 18:23:32 | INFO | Loaded financial_ratios.xlsx: 1184 rows, 16 cols (header=0)
+2026-07-06 18:23:32 | INFO | Loaded peer_groups.xlsx: 56 rows, 4 cols (header=0)
+2026-07-06 18:23:32 | WARNING | DQ-02 CRITICAL: 26 duplicate rows in profitandloss. Deduplicating (keep last).
+2026-07-06 18:23:32 | WARNING | DQ-02 CRITICAL: 138 duplicate rows in balancesheet. Deduplicating (keep last).
+2026-07-06 18:23:32 | WARNING | DQ-02 CRITICAL: 70 duplicate rows in cashflow. Deduplicating (keep last).
+2026-07-06 18:23:32 | WARNING | DQ-07 CRITICAL: 102 rows with bad year format rejected from profitandloss.
+2026-07-06 18:23:32 | WARNING | DQ-07 CRITICAL: 60 rows with bad year format rejected from balancesheet.
+2026-07-06 18:23:32 | WARNING | DQ-03 CRITICAL: 91 orphan rows rejected from profitandloss.
+2026-07-06 18:23:32 | WARNING | DQ-03 CRITICAL: 25 orphan rows rejected from balancesheet.
+2026-07-06 18:23:32 | WARNING | DQ-03 CRITICAL: 96 orphan rows rejected from cashflow.
+2026-07-06 18:23:32 | WARNING | DQ-03 CRITICAL: 4 orphan rows rejected from analysis.
+2026-07-06 18:23:32 | WARNING | DQ-03 CRITICAL: 128 orphan rows rejected from documents.
+2026-07-06 18:23:32 | WARNING | DQ-03 CRITICAL: 2 orphan rows rejected from prosandcons.
+2026-07-06 18:23:32 | WARNING | DQ-03 CRITICAL: 24 orphan rows rejected from financial_ratios_reference.
+2026-07-06 18:23:32 | INFO | DQ-13: live URL validation disabled (VALIDATE_DOCUMENT_URLS not set). Marking all Annual_Report URLs as unchecked.
+2026-07-06 18:23:32 | INFO | DQ-15 INFO: 1140 balance sheet rows are exactly balanced (strict).
+2026-07-06 18:23:32 | INFO | Validation complete: 766 CRITICAL, 323 WARNING flags across 1089 total rows.
+2026-07-06 18:23:32 | INFO | Wrote 1089 DQ findings to output/validation_failures.csv
+2026-07-06 18:23:32 | INFO | Loaded companies: 92 rows written, 0 rejected (0.0091s)
+2026-07-06 18:23:32 | INFO | Loaded profitandloss: 1070 rows written, 206 rejected (0.0228s)
+2026-07-06 18:23:32 | INFO | Loaded balancesheet: 1140 rows written, 172 rejected (0.0219s)
+2026-07-06 18:23:32 | INFO | Loaded cashflow: 1056 rows written, 131 rejected (0.0168s)
+2026-07-06 18:23:32 | INFO | Loaded analysis: 16 rows written, 4 rejected (0.0064s)
+2026-07-06 18:23:32 | INFO | Loaded documents: 1457 rows written, 128 rejected (0.0175s)
+2026-07-06 18:23:32 | INFO | Loaded prosandcons: 14 rows written, 2 rejected (0.0055s)
+2026-07-06 18:23:32 | INFO | Loaded sectors: 92 rows written, 0 rejected (0.0061s)
+2026-07-06 18:23:32 | INFO | Loaded market_cap: 552 rows written, 0 rejected (0.0121s)
+2026-07-06 18:23:33 | INFO | Loaded stock_prices: 5520 rows written, 0 rejected (0.0668s)
+2026-07-06 18:23:33 | INFO | Loaded peer_groups: 56 rows written, 0 rejected (0.0067s)
+2026-07-06 18:23:33 | INFO | Loaded financial_ratios_reference: 1160 rows written, 24 rejected (0.0256s)
+2026-07-06 18:23:33 | INFO | Pipeline complete in 2.13s. CRITICAL=766, WARNING=323
+2026-07-07 04:18:03 | INFO | ============================================================
+2026-07-07 04:18:03 | INFO | Starting full ETL pipeline run.
+2026-07-07 04:18:03 | INFO | Loaded companies.xlsx: 92 rows, 12 cols (header=1)
+2026-07-07 04:18:03 | INFO | Loaded profitandloss.xlsx: 1276 rows, 15 cols (header=1)
+2026-07-07 04:18:03 | INFO | Loaded balancesheet.xlsx: 1312 rows, 13 cols (header=1)
+2026-07-07 04:18:03 | INFO | Loaded cashflow.xlsx: 1187 rows, 7 cols (header=1)
+2026-07-07 04:18:03 | INFO | Loaded analysis.xlsx: 20 rows, 6 cols (header=1)
+2026-07-07 04:18:03 | INFO | Loaded documents.xlsx: 1585 rows, 4 cols (header=1)
+2026-07-07 04:18:03 | INFO | Loaded prosandcons.xlsx: 16 rows, 4 cols (header=1)
+2026-07-07 04:18:03 | INFO | Loaded sectors.xlsx: 92 rows, 6 cols (header=0)
+2026-07-07 04:18:04 | INFO | Loaded stock_prices.xlsx: 5520 rows, 9 cols (header=0)
+2026-07-07 04:18:04 | INFO | Loaded market_cap.xlsx: 552 rows, 9 cols (header=0)
+2026-07-07 04:18:04 | INFO | Loaded financial_ratios.xlsx: 1184 rows, 16 cols (header=0)
+2026-07-07 04:18:04 | INFO | Loaded peer_groups.xlsx: 56 rows, 4 cols (header=0)
+2026-07-07 04:18:04 | WARNING | DQ-02 CRITICAL: 26 duplicate rows in profitandloss. Deduplicating (keep last).
+2026-07-07 04:18:04 | WARNING | DQ-02 CRITICAL: 138 duplicate rows in balancesheet. Deduplicating (keep last).
+2026-07-07 04:18:04 | WARNING | DQ-02 CRITICAL: 70 duplicate rows in cashflow. Deduplicating (keep last).
+2026-07-07 04:18:04 | WARNING | DQ-07 CRITICAL: 102 rows with bad year format rejected from profitandloss.
+2026-07-07 04:18:04 | WARNING | DQ-07 CRITICAL: 60 rows with bad year format rejected from balancesheet.
+2026-07-07 04:18:04 | WARNING | DQ-03 CRITICAL: 91 orphan rows rejected from profitandloss.
+2026-07-07 04:18:04 | WARNING | DQ-03 CRITICAL: 25 orphan rows rejected from balancesheet.
+2026-07-07 04:18:04 | WARNING | DQ-03 CRITICAL: 96 orphan rows rejected from cashflow.
+2026-07-07 04:18:04 | WARNING | DQ-03 CRITICAL: 4 orphan rows rejected from analysis.
+2026-07-07 04:18:04 | WARNING | DQ-03 CRITICAL: 128 orphan rows rejected from documents.
+2026-07-07 04:18:04 | WARNING | DQ-03 CRITICAL: 2 orphan rows rejected from prosandcons.
+2026-07-07 04:18:04 | WARNING | DQ-03 CRITICAL: 24 orphan rows rejected from financial_ratios_reference.
+2026-07-07 04:18:04 | INFO | DQ-13: live URL validation disabled (VALIDATE_DOCUMENT_URLS not set). Marking all Annual_Report URLs as unchecked.
+2026-07-07 04:18:04 | INFO | DQ-15 INFO: 1140 balance sheet rows are exactly balanced (strict).
+2026-07-07 04:18:04 | INFO | Validation complete: 766 CRITICAL, 323 WARNING flags across 1089 total rows.
+2026-07-07 04:18:04 | INFO | Wrote 1089 DQ findings to output/validation_failures.csv
+2026-07-07 04:18:05 | INFO | Loaded companies: 92 rows written, 0 rejected (0.0102s)
+2026-07-07 04:18:05 | INFO | Loaded profitandloss: 1070 rows written, 206 rejected (0.0315s)
+2026-07-07 04:18:05 | INFO | Loaded balancesheet: 1140 rows written, 172 rejected (0.0252s)
+2026-07-07 04:18:05 | INFO | Loaded cashflow: 1056 rows written, 131 rejected (0.0165s)
+2026-07-07 04:18:05 | INFO | Loaded analysis: 16 rows written, 4 rejected (0.006s)
+2026-07-07 04:18:05 | INFO | Loaded documents: 1457 rows written, 128 rejected (0.0168s)
+2026-07-07 04:18:05 | INFO | Loaded prosandcons: 14 rows written, 2 rejected (0.0053s)
+2026-07-07 04:18:05 | INFO | Loaded sectors: 92 rows written, 0 rejected (0.0061s)
+2026-07-07 04:18:05 | INFO | Loaded market_cap: 552 rows written, 0 rejected (0.0124s)
+2026-07-07 04:18:05 | INFO | Loaded stock_prices: 5520 rows written, 0 rejected (0.1129s)
+2026-07-07 04:18:05 | INFO | Loaded peer_groups: 56 rows written, 0 rejected (0.0063s)
+2026-07-07 04:18:05 | INFO | Loaded financial_ratios_reference: 1160 rows written, 24 rejected (0.0252s)
+2026-07-07 04:18:05 | INFO | Pipeline complete in 2.15s. CRITICAL=766, WARNING=323
+2026-07-07 04:20:11 | INFO | Starting Financial Ratio Engine population run.
+2026-07-07 04:20:12 | INFO | Wrote 1041 rows to financial_ratios.
+2026-07-07 04:20:12 | INFO | Wrote 1552 edge cases to output/ratio_edge_cases.log
+2026-07-07 04:21:09 | INFO | ============================================================
+2026-07-07 04:21:09 | INFO | Starting full ETL pipeline run.
+2026-07-07 04:21:09 | INFO | Loaded companies.xlsx: 92 rows, 12 cols (header=1)
+2026-07-07 04:21:09 | INFO | Loaded profitandloss.xlsx: 1276 rows, 15 cols (header=1)
+2026-07-07 04:21:09 | INFO | Loaded balancesheet.xlsx: 1312 rows, 13 cols (header=1)
+2026-07-07 04:21:09 | INFO | Loaded cashflow.xlsx: 1187 rows, 7 cols (header=1)
+2026-07-07 04:21:09 | INFO | Loaded analysis.xlsx: 20 rows, 6 cols (header=1)
+2026-07-07 04:21:10 | INFO | Loaded documents.xlsx: 1585 rows, 4 cols (header=1)
+2026-07-07 04:21:10 | INFO | Loaded prosandcons.xlsx: 16 rows, 4 cols (header=1)
+2026-07-07 04:21:10 | INFO | Loaded sectors.xlsx: 92 rows, 6 cols (header=0)
+2026-07-07 04:21:10 | INFO | Loaded stock_prices.xlsx: 5520 rows, 9 cols (header=0)
+2026-07-07 04:21:10 | INFO | Loaded market_cap.xlsx: 552 rows, 9 cols (header=0)
+2026-07-07 04:21:10 | INFO | Loaded financial_ratios.xlsx: 1184 rows, 16 cols (header=0)
+2026-07-07 04:21:10 | INFO | Loaded peer_groups.xlsx: 56 rows, 4 cols (header=0)
+2026-07-07 04:21:10 | WARNING | DQ-02 CRITICAL: 26 duplicate rows in profitandloss. Deduplicating (keep last).
+2026-07-07 04:21:10 | WARNING | DQ-02 CRITICAL: 138 duplicate rows in balancesheet. Deduplicating (keep last).
+2026-07-07 04:21:10 | WARNING | DQ-02 CRITICAL: 70 duplicate rows in cashflow. Deduplicating (keep last).
+2026-07-07 04:21:10 | WARNING | DQ-07 CRITICAL: 102 rows with bad year format rejected from profitandloss.
+2026-07-07 04:21:10 | WARNING | DQ-07 CRITICAL: 60 rows with bad year format rejected from balancesheet.
+2026-07-07 04:21:10 | WARNING | DQ-03 CRITICAL: 91 orphan rows rejected from profitandloss.
+2026-07-07 04:21:10 | WARNING | DQ-03 CRITICAL: 25 orphan rows rejected from balancesheet.
+2026-07-07 04:21:10 | WARNING | DQ-03 CRITICAL: 96 orphan rows rejected from cashflow.
+2026-07-07 04:21:10 | WARNING | DQ-03 CRITICAL: 4 orphan rows rejected from analysis.
+2026-07-07 04:21:10 | WARNING | DQ-03 CRITICAL: 128 orphan rows rejected from documents.
+2026-07-07 04:21:10 | WARNING | DQ-03 CRITICAL: 2 orphan rows rejected from prosandcons.
+2026-07-07 04:21:10 | WARNING | DQ-03 CRITICAL: 24 orphan rows rejected from financial_ratios_reference.
+2026-07-07 04:21:10 | INFO | DQ-13: live URL validation disabled (VALIDATE_DOCUMENT_URLS not set). Marking all Annual_Report URLs as unchecked.
+2026-07-07 04:21:10 | INFO | DQ-15 INFO: 1140 balance sheet rows are exactly balanced (strict).
+2026-07-07 04:21:10 | INFO | Validation complete: 766 CRITICAL, 323 WARNING flags across 1089 total rows.
+2026-07-07 04:21:10 | INFO | Wrote 1089 DQ findings to output/validation_failures.csv
+2026-07-07 04:21:11 | INFO | Loaded companies: 92 rows written, 0 rejected (0.0098s)
+2026-07-07 04:21:11 | INFO | Loaded profitandloss: 1070 rows written, 206 rejected (0.0331s)
+2026-07-07 04:21:11 | INFO | Loaded balancesheet: 1140 rows written, 172 rejected (0.0242s)
+2026-07-07 04:21:11 | INFO | Loaded cashflow: 1056 rows written, 131 rejected (0.015s)
+2026-07-07 04:21:11 | INFO | Loaded analysis: 16 rows written, 4 rejected (0.0066s)
+2026-07-07 04:21:11 | INFO | Loaded documents: 1457 rows written, 128 rejected (0.0161s)
+2026-07-07 04:21:11 | INFO | Loaded prosandcons: 14 rows written, 2 rejected (0.0063s)
+2026-07-07 04:21:11 | INFO | Loaded sectors: 92 rows written, 0 rejected (0.0073s)
+2026-07-07 04:21:11 | INFO | Loaded market_cap: 552 rows written, 0 rejected (0.0122s)
+2026-07-07 04:21:11 | INFO | Loaded stock_prices: 5520 rows written, 0 rejected (0.0621s)
+2026-07-07 04:21:11 | INFO | Loaded peer_groups: 56 rows written, 0 rejected (0.008s)
+2026-07-07 04:21:11 | INFO | Loaded financial_ratios_reference: 1160 rows written, 24 rejected (0.0228s)
+2026-07-07 04:21:11 | INFO | Pipeline complete in 1.9s. CRITICAL=766, WARNING=323
+2026-07-07 04:21:11 | INFO | Starting Financial Ratio Engine population run.
+2026-07-07 04:21:13 | INFO | Wrote 1041 rows to financial_ratios.
+2026-07-07 04:21:13 | INFO | Wrote 1552 edge cases to output/ratio_edge_cases.log
+2026-07-07 04:22:12 | INFO | ============================================================
+2026-07-07 04:22:12 | INFO | Starting full ETL pipeline run.
+2026-07-07 04:22:12 | INFO | Loaded companies.xlsx: 92 rows, 12 cols (header=1)
+2026-07-07 04:22:12 | INFO | Loaded profitandloss.xlsx: 1276 rows, 15 cols (header=1)
+2026-07-07 04:22:13 | INFO | Loaded balancesheet.xlsx: 1312 rows, 13 cols (header=1)
+2026-07-07 04:22:13 | INFO | Loaded cashflow.xlsx: 1187 rows, 7 cols (header=1)
+2026-07-07 04:22:13 | INFO | Loaded analysis.xlsx: 20 rows, 6 cols (header=1)
+2026-07-07 04:22:13 | INFO | Loaded documents.xlsx: 1585 rows, 4 cols (header=1)
+2026-07-07 04:22:13 | INFO | Loaded prosandcons.xlsx: 16 rows, 4 cols (header=1)
+2026-07-07 04:22:13 | INFO | Loaded sectors.xlsx: 92 rows, 6 cols (header=0)
+2026-07-07 04:22:13 | INFO | Loaded stock_prices.xlsx: 5520 rows, 9 cols (header=0)
+2026-07-07 04:22:13 | INFO | Loaded market_cap.xlsx: 552 rows, 9 cols (header=0)
+2026-07-07 04:22:14 | INFO | Loaded financial_ratios.xlsx: 1184 rows, 16 cols (header=0)
+2026-07-07 04:22:14 | INFO | Loaded peer_groups.xlsx: 56 rows, 4 cols (header=0)
+2026-07-07 04:22:14 | WARNING | DQ-02 CRITICAL: 26 duplicate rows in profitandloss. Deduplicating (keep last).
+2026-07-07 04:22:14 | WARNING | DQ-02 CRITICAL: 138 duplicate rows in balancesheet. Deduplicating (keep last).
+2026-07-07 04:22:14 | WARNING | DQ-02 CRITICAL: 70 duplicate rows in cashflow. Deduplicating (keep last).
+2026-07-07 04:22:14 | WARNING | DQ-07 CRITICAL: 102 rows with bad year format rejected from profitandloss.
+2026-07-07 04:22:14 | WARNING | DQ-07 CRITICAL: 60 rows with bad year format rejected from balancesheet.
+2026-07-07 04:22:14 | WARNING | DQ-03 CRITICAL: 91 orphan rows rejected from profitandloss.
+2026-07-07 04:22:14 | WARNING | DQ-03 CRITICAL: 25 orphan rows rejected from balancesheet.
+2026-07-07 04:22:14 | WARNING | DQ-03 CRITICAL: 96 orphan rows rejected from cashflow.
+2026-07-07 04:22:14 | WARNING | DQ-03 CRITICAL: 4 orphan rows rejected from analysis.
+2026-07-07 04:22:14 | WARNING | DQ-03 CRITICAL: 128 orphan rows rejected from documents.
+2026-07-07 04:22:14 | WARNING | DQ-03 CRITICAL: 2 orphan rows rejected from prosandcons.
+2026-07-07 04:22:14 | WARNING | DQ-03 CRITICAL: 24 orphan rows rejected from financial_ratios_reference.
+2026-07-07 04:22:14 | INFO | DQ-13: live URL validation disabled (VALIDATE_DOCUMENT_URLS not set). Marking all Annual_Report URLs as unchecked.
+2026-07-07 04:22:14 | INFO | DQ-15 INFO: 1140 balance sheet rows are exactly balanced (strict).
+2026-07-07 04:22:14 | INFO | Validation complete: 766 CRITICAL, 323 WARNING flags across 1089 total rows.
+2026-07-07 04:22:14 | INFO | Wrote 1089 DQ findings to output/validation_failures.csv
+2026-07-07 04:22:14 | INFO | Loaded companies: 92 rows written, 0 rejected (0.0087s)
+2026-07-07 04:22:14 | INFO | Loaded profitandloss: 1070 rows written, 206 rejected (0.0207s)
+2026-07-07 04:22:14 | INFO | Loaded balancesheet: 1140 rows written, 172 rejected (0.0222s)
+2026-07-07 04:22:14 | INFO | Loaded cashflow: 1056 rows written, 131 rejected (0.015s)
+2026-07-07 04:22:14 | INFO | Loaded analysis: 16 rows written, 4 rejected (0.0056s)
+2026-07-07 04:22:14 | INFO | Loaded documents: 1457 rows written, 128 rejected (0.0152s)
+2026-07-07 04:22:14 | INFO | Loaded prosandcons: 14 rows written, 2 rejected (0.0054s)
+2026-07-07 04:22:14 | INFO | Loaded sectors: 92 rows written, 0 rejected (0.0058s)
+2026-07-07 04:22:14 | INFO | Loaded market_cap: 552 rows written, 0 rejected (0.0109s)
+2026-07-07 04:22:14 | INFO | Loaded stock_prices: 5520 rows written, 0 rejected (0.1006s)
+2026-07-07 04:22:14 | INFO | Loaded peer_groups: 56 rows written, 0 rejected (0.0065s)
+2026-07-07 04:22:14 | INFO | Loaded financial_ratios_reference: 1160 rows written, 24 rejected (0.0246s)
+2026-07-07 04:22:14 | INFO | Pipeline complete in 1.93s. CRITICAL=766, WARNING=323
+2026-07-07 04:22:15 | INFO | Starting Financial Ratio Engine population run.
+2026-07-07 04:22:16 | INFO | Wrote 1041 rows to financial_ratios.
+2026-07-07 04:22:16 | INFO | Wrote 1552 edge cases to output/ratio_edge_cases.log
+2026-07-07 09:25:29 | INFO | Starting Financial Ratio Engine population run.
+2026-07-07 09:25:40 | INFO | ============================================================
+2026-07-07 09:25:40 | INFO | Starting full ETL pipeline run.
+2026-07-07 09:25:41 | INFO | Loaded companies.xlsx: 92 rows, 12 cols (header=1)
+2026-07-07 09:25:41 | INFO | Loaded profitandloss.xlsx: 1276 rows, 15 cols (header=1)
+2026-07-07 09:25:41 | INFO | Loaded balancesheet.xlsx: 1312 rows, 13 cols (header=1)
+2026-07-07 09:25:41 | INFO | Loaded cashflow.xlsx: 1187 rows, 7 cols (header=1)
+2026-07-07 09:25:41 | INFO | Loaded analysis.xlsx: 20 rows, 6 cols (header=1)
+2026-07-07 09:25:41 | INFO | Loaded documents.xlsx: 1585 rows, 4 cols (header=1)
+2026-07-07 09:25:41 | INFO | Loaded prosandcons.xlsx: 16 rows, 4 cols (header=1)
+2026-07-07 09:25:41 | INFO | Loaded sectors.xlsx: 92 rows, 6 cols (header=0)
+2026-07-07 09:25:41 | INFO | Loaded stock_prices.xlsx: 5520 rows, 9 cols (header=0)
+2026-07-07 09:25:41 | INFO | Loaded market_cap.xlsx: 552 rows, 9 cols (header=0)
+2026-07-07 09:25:42 | INFO | Loaded financial_ratios.xlsx: 1184 rows, 16 cols (header=0)
+2026-07-07 09:25:42 | INFO | Loaded peer_groups.xlsx: 56 rows, 4 cols (header=0)
+2026-07-07 09:25:42 | WARNING | DQ-02 CRITICAL: 26 duplicate rows in profitandloss. Deduplicating (keep last).
+2026-07-07 09:25:42 | WARNING | DQ-02 CRITICAL: 138 duplicate rows in balancesheet. Deduplicating (keep last).
+2026-07-07 09:25:42 | WARNING | DQ-02 CRITICAL: 70 duplicate rows in cashflow. Deduplicating (keep last).
+2026-07-07 09:25:42 | WARNING | DQ-07 CRITICAL: 102 rows with bad year format rejected from profitandloss.
+2026-07-07 09:25:42 | WARNING | DQ-07 CRITICAL: 60 rows with bad year format rejected from balancesheet.
+2026-07-07 09:25:42 | WARNING | DQ-03 CRITICAL: 91 orphan rows rejected from profitandloss.
+2026-07-07 09:25:42 | WARNING | DQ-03 CRITICAL: 25 orphan rows rejected from balancesheet.
+2026-07-07 09:25:42 | WARNING | DQ-03 CRITICAL: 96 orphan rows rejected from cashflow.
+2026-07-07 09:25:42 | WARNING | DQ-03 CRITICAL: 4 orphan rows rejected from analysis.
+2026-07-07 09:25:42 | WARNING | DQ-03 CRITICAL: 128 orphan rows rejected from documents.
+2026-07-07 09:25:42 | WARNING | DQ-03 CRITICAL: 2 orphan rows rejected from prosandcons.
+2026-07-07 09:25:42 | WARNING | DQ-03 CRITICAL: 24 orphan rows rejected from financial_ratios_reference.
+2026-07-07 09:25:42 | INFO | DQ-13: live URL validation disabled (VALIDATE_DOCUMENT_URLS not set). Marking all Annual_Report URLs as unchecked.
+2026-07-07 09:25:42 | INFO | DQ-15 INFO: 1140 balance sheet rows are exactly balanced (strict).
+2026-07-07 09:25:42 | INFO | Validation complete: 766 CRITICAL, 323 WARNING flags across 1089 total rows.
+2026-07-07 09:25:42 | INFO | Wrote 1089 DQ findings to output/validation_failures.csv
+2026-07-07 09:25:42 | INFO | Loaded companies: 92 rows written, 0 rejected (0.0086s)
+2026-07-07 09:25:42 | INFO | Loaded profitandloss: 1070 rows written, 206 rejected (0.0252s)
+2026-07-07 09:25:42 | INFO | Loaded balancesheet: 1140 rows written, 172 rejected (0.0187s)
+2026-07-07 09:25:42 | INFO | Loaded cashflow: 1056 rows written, 131 rejected (0.0127s)
+2026-07-07 09:25:42 | INFO | Loaded analysis: 16 rows written, 4 rejected (0.0049s)
+2026-07-07 09:25:42 | INFO | Loaded documents: 1457 rows written, 128 rejected (0.0135s)
+2026-07-07 09:25:42 | INFO | Loaded prosandcons: 14 rows written, 2 rejected (0.006s)
+2026-07-07 09:25:42 | INFO | Loaded sectors: 92 rows written, 0 rejected (0.0057s)
+2026-07-07 09:25:42 | INFO | Loaded market_cap: 552 rows written, 0 rejected (0.0099s)
+2026-07-07 09:25:42 | INFO | Loaded stock_prices: 5520 rows written, 0 rejected (0.0793s)
+2026-07-07 09:25:42 | INFO | Loaded peer_groups: 56 rows written, 0 rejected (0.0072s)
+2026-07-07 09:25:42 | INFO | Loaded financial_ratios_reference: 1160 rows written, 24 rejected (0.0199s)
+2026-07-07 09:25:42 | INFO | Pipeline complete in 1.77s. CRITICAL=766, WARNING=323
+2026-07-07 09:25:43 | INFO | Starting Financial Ratio Engine population run.
+2026-07-07 09:25:43 | INFO | Wrote 1155 rows to financial_ratios.
+2026-07-07 09:25:43 | INFO | Wrote 6487 edge cases + 2 anomalies to output/ratio_edge_cases.log
+2026-07-07 09:28:27 | INFO | ============================================================
+2026-07-07 09:28:27 | INFO | Starting full ETL pipeline run.
+2026-07-07 09:28:27 | INFO | Loaded companies.xlsx: 92 rows, 12 cols (header=1)
+2026-07-07 09:28:28 | INFO | Loaded profitandloss.xlsx: 1276 rows, 15 cols (header=1)
+2026-07-07 09:28:28 | INFO | Loaded balancesheet.xlsx: 1312 rows, 13 cols (header=1)
+2026-07-07 09:28:28 | INFO | Loaded cashflow.xlsx: 1187 rows, 7 cols (header=1)
+2026-07-07 09:28:28 | INFO | Loaded analysis.xlsx: 20 rows, 6 cols (header=1)
+2026-07-07 09:28:28 | INFO | Loaded documents.xlsx: 1585 rows, 4 cols (header=1)
+2026-07-07 09:28:28 | INFO | Loaded prosandcons.xlsx: 16 rows, 4 cols (header=1)
+2026-07-07 09:28:28 | INFO | Loaded sectors.xlsx: 92 rows, 6 cols (header=0)
+2026-07-07 09:28:28 | INFO | Loaded stock_prices.xlsx: 5520 rows, 9 cols (header=0)
+2026-07-07 09:28:28 | INFO | Loaded market_cap.xlsx: 552 rows, 9 cols (header=0)
+2026-07-07 09:28:28 | INFO | Loaded financial_ratios.xlsx: 1184 rows, 16 cols (header=0)
+2026-07-07 09:28:28 | INFO | Loaded peer_groups.xlsx: 56 rows, 4 cols (header=0)
+2026-07-07 09:28:28 | WARNING | DQ-02 CRITICAL: 26 duplicate rows in profitandloss. Deduplicating (keep last).
+2026-07-07 09:28:28 | WARNING | DQ-02 CRITICAL: 138 duplicate rows in balancesheet. Deduplicating (keep last).
+2026-07-07 09:28:28 | WARNING | DQ-02 CRITICAL: 70 duplicate rows in cashflow. Deduplicating (keep last).
+2026-07-07 09:28:28 | WARNING | DQ-07 CRITICAL: 102 rows with bad year format rejected from profitandloss.
+2026-07-07 09:28:28 | WARNING | DQ-07 CRITICAL: 60 rows with bad year format rejected from balancesheet.
+2026-07-07 09:28:28 | WARNING | DQ-03 CRITICAL: 91 orphan rows rejected from profitandloss.
+2026-07-07 09:28:28 | WARNING | DQ-03 CRITICAL: 25 orphan rows rejected from balancesheet.
+2026-07-07 09:28:28 | WARNING | DQ-03 CRITICAL: 96 orphan rows rejected from cashflow.
+2026-07-07 09:28:28 | WARNING | DQ-03 CRITICAL: 4 orphan rows rejected from analysis.
+2026-07-07 09:28:28 | WARNING | DQ-03 CRITICAL: 128 orphan rows rejected from documents.
+2026-07-07 09:28:28 | WARNING | DQ-03 CRITICAL: 2 orphan rows rejected from prosandcons.
+2026-07-07 09:28:28 | WARNING | DQ-03 CRITICAL: 24 orphan rows rejected from financial_ratios_reference.
+2026-07-07 09:28:28 | INFO | DQ-13: live URL validation disabled (VALIDATE_DOCUMENT_URLS not set). Marking all Annual_Report URLs as unchecked.
+2026-07-07 09:28:28 | INFO | DQ-15 INFO: 1140 balance sheet rows are exactly balanced (strict).
+2026-07-07 09:28:28 | INFO | Validation complete: 766 CRITICAL, 323 WARNING flags across 1089 total rows.
+2026-07-07 09:28:28 | INFO | Wrote 1089 DQ findings to output/validation_failures.csv
+2026-07-07 09:28:29 | INFO | Loaded companies: 92 rows written, 0 rejected (0.0083s)
+2026-07-07 09:28:29 | INFO | Loaded profitandloss: 1070 rows written, 206 rejected (0.0162s)
+2026-07-07 09:28:29 | INFO | Loaded balancesheet: 1140 rows written, 172 rejected (0.0424s)
+2026-07-07 09:28:29 | INFO | Loaded cashflow: 1056 rows written, 131 rejected (0.0155s)
+2026-07-07 09:28:29 | INFO | Loaded analysis: 16 rows written, 4 rejected (0.0051s)
+2026-07-07 09:28:29 | INFO | Loaded documents: 1457 rows written, 128 rejected (0.0118s)
+2026-07-07 09:28:29 | INFO | Loaded prosandcons: 14 rows written, 2 rejected (0.0047s)
+2026-07-07 09:28:29 | INFO | Loaded sectors: 92 rows written, 0 rejected (0.0052s)
+2026-07-07 09:28:29 | INFO | Loaded market_cap: 552 rows written, 0 rejected (0.0088s)
+2026-07-07 09:28:29 | INFO | Loaded stock_prices: 5520 rows written, 0 rejected (0.0755s)
+2026-07-07 09:28:29 | INFO | Loaded peer_groups: 56 rows written, 0 rejected (0.0053s)
+2026-07-07 09:28:29 | INFO | Loaded financial_ratios_reference: 1160 rows written, 24 rejected (0.02s)
+2026-07-07 09:28:29 | INFO | Pipeline complete in 1.57s. CRITICAL=766, WARNING=323
+2026-07-07 09:28:29 | INFO | Starting Financial Ratio Engine population run.
+2026-07-07 09:28:30 | INFO | Wrote 1155 rows to financial_ratios.
+2026-07-07 09:28:30 | INFO | Wrote 6487 edge cases + 2 anomalies to output/ratio_edge_cases.log
+2026-07-07 09:30:15 | INFO | ============================================================
+2026-07-07 09:30:15 | INFO | Starting full ETL pipeline run.
+2026-07-07 09:30:15 | INFO | Loaded companies.xlsx: 92 rows, 12 cols (header=1)
+2026-07-07 09:30:15 | INFO | Loaded profitandloss.xlsx: 1276 rows, 15 cols (header=1)
+2026-07-07 09:30:15 | INFO | Loaded balancesheet.xlsx: 1312 rows, 13 cols (header=1)
+2026-07-07 09:30:15 | INFO | Loaded cashflow.xlsx: 1187 rows, 7 cols (header=1)
+2026-07-07 09:30:15 | INFO | Loaded analysis.xlsx: 20 rows, 6 cols (header=1)
+2026-07-07 09:30:15 | INFO | Loaded documents.xlsx: 1585 rows, 4 cols (header=1)
+2026-07-07 09:30:15 | INFO | Loaded prosandcons.xlsx: 16 rows, 4 cols (header=1)
+2026-07-07 09:30:15 | INFO | Loaded sectors.xlsx: 92 rows, 6 cols (header=0)
+2026-07-07 09:30:16 | INFO | Loaded stock_prices.xlsx: 5520 rows, 9 cols (header=0)
+2026-07-07 09:30:16 | INFO | Loaded market_cap.xlsx: 552 rows, 9 cols (header=0)
+2026-07-07 09:30:16 | INFO | Loaded financial_ratios.xlsx: 1184 rows, 16 cols (header=0)
+2026-07-07 09:30:16 | INFO | Loaded peer_groups.xlsx: 56 rows, 4 cols (header=0)
+2026-07-07 09:30:16 | WARNING | DQ-02 CRITICAL: 26 duplicate rows in profitandloss. Deduplicating (keep last).
+2026-07-07 09:30:16 | WARNING | DQ-02 CRITICAL: 138 duplicate rows in balancesheet. Deduplicating (keep last).
+2026-07-07 09:30:16 | WARNING | DQ-02 CRITICAL: 70 duplicate rows in cashflow. Deduplicating (keep last).
+2026-07-07 09:30:16 | WARNING | DQ-07 CRITICAL: 102 rows with bad year format rejected from profitandloss.
+2026-07-07 09:30:16 | WARNING | DQ-07 CRITICAL: 60 rows with bad year format rejected from balancesheet.
+2026-07-07 09:30:16 | WARNING | DQ-03 CRITICAL: 91 orphan rows rejected from profitandloss.
+2026-07-07 09:30:16 | WARNING | DQ-03 CRITICAL: 25 orphan rows rejected from balancesheet.
+2026-07-07 09:30:16 | WARNING | DQ-03 CRITICAL: 96 orphan rows rejected from cashflow.
+2026-07-07 09:30:16 | WARNING | DQ-03 CRITICAL: 4 orphan rows rejected from analysis.
+2026-07-07 09:30:16 | WARNING | DQ-03 CRITICAL: 128 orphan rows rejected from documents.
+2026-07-07 09:30:16 | WARNING | DQ-03 CRITICAL: 2 orphan rows rejected from prosandcons.
+2026-07-07 09:30:16 | WARNING | DQ-03 CRITICAL: 24 orphan rows rejected from financial_ratios_reference.
+2026-07-07 09:30:16 | INFO | DQ-13: live URL validation disabled (VALIDATE_DOCUMENT_URLS not set). Marking all Annual_Report URLs as unchecked.
+2026-07-07 09:30:16 | INFO | DQ-15 INFO: 1140 balance sheet rows are exactly balanced (strict).
+2026-07-07 09:30:16 | INFO | Validation complete: 766 CRITICAL, 323 WARNING flags across 1089 total rows.
+2026-07-07 09:30:16 | INFO | Wrote 1089 DQ findings to output/validation_failures.csv
+2026-07-07 09:30:16 | INFO | Loaded companies: 92 rows written, 0 rejected (0.0083s)
+2026-07-07 09:30:16 | INFO | Loaded profitandloss: 1070 rows written, 206 rejected (0.0168s)
+2026-07-07 09:30:16 | INFO | Loaded balancesheet: 1140 rows written, 172 rejected (0.0156s)
+2026-07-07 09:30:16 | INFO | Loaded cashflow: 1056 rows written, 131 rejected (0.0117s)
+2026-07-07 09:30:16 | INFO | Loaded analysis: 16 rows written, 4 rejected (0.0053s)
+2026-07-07 09:30:16 | INFO | Loaded documents: 1457 rows written, 128 rejected (0.0121s)
+2026-07-07 09:30:16 | INFO | Loaded prosandcons: 14 rows written, 2 rejected (0.0053s)
+2026-07-07 09:30:16 | INFO | Loaded sectors: 92 rows written, 0 rejected (0.0056s)
+2026-07-07 09:30:16 | INFO | Loaded market_cap: 552 rows written, 0 rejected (0.0093s)
+2026-07-07 09:30:16 | INFO | Loaded stock_prices: 5520 rows written, 0 rejected (0.0483s)
+2026-07-07 09:30:16 | INFO | Loaded peer_groups: 56 rows written, 0 rejected (0.006s)
+2026-07-07 09:30:16 | INFO | Loaded financial_ratios_reference: 1160 rows written, 24 rejected (0.0167s)
+2026-07-07 09:30:16 | INFO | Pipeline complete in 1.49s. CRITICAL=766, WARNING=323
+2026-07-07 09:30:17 | INFO | Starting Financial Ratio Engine population run.
+2026-07-07 09:30:17 | INFO | Wrote 1155 rows to financial_ratios.
+2026-07-07 09:30:17 | INFO | Wrote 6487 edge cases + 2 anomalies to output/ratio_edge_cases.log
