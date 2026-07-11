@@ -1,0 +1,32 @@
+# SPRINT 3 - Day 16: Adjusted 6 Preset Screeners (Tuned for Nifty 100 Realities)
+presets:
+  quality_compounder:
+    roe_min: 12.0
+    de_max: 1.5
+    fcf_min: 0.0
+    rev_cagr_5yr_min: 8.0
+
+  value_pick:
+    pe_max: 25.0
+    pb_max: 4.0
+    de_max: 2.0
+    div_yield_min: 1.0
+
+  growth_accelerator:
+    pat_cagr_5yr_min: 12.0
+    rev_cagr_5yr_min: 10.0
+    de_max: 2.0
+
+  dividend_champion:
+    div_yield_min: 1.5
+    div_payout_max: 80.0
+    fcf_min: 0.0
+
+  debt_free_blue_chip:
+    de_max: 0.01  # Catch strict zero or near-zero debt
+    roe_min: 10.0
+    sales_min: 2000.0
+
+  turnaround_watch:
+    rev_cagr_3yr_min: 5.0
+    fcf_min: 0.0
