@@ -1,0 +1,14 @@
+# OS files
+.DS_Store
+*.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
