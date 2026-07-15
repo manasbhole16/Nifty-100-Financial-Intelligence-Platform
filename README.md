@@ -204,11 +204,17 @@ Ensure your virtual environment is active before running any scripts.
 # Mac/Linux
 source .venv/bin/activate
 
-### 2. Run the Valuation Engine (Backend)
+### 2. # 1. Move into the nested project directory
+cd nifty100_project
+
+Launch the dashboard
+streamlit run src/dashboard/app.py
+
+### 3. Run the Valuation Engine (Backend)
 This will process core financial metrics and generate valuation_summary.xlsx and valuation_flags.csv in the output/ directory.
 python src/valuation.py
 
-### 3. Launch the Dashboard
+### 4. Launch the Dashboard
 Boot up the Streamlit application. A browser window will automatically open at http://localhost:8501.
 streamlit run src/dashboard/app.py
 
