@@ -1,0 +1,9 @@
+ticker,company_name,sector,pe_ratio,sector_median_pe,fcf_yield,valuation_flag
+RELIANCE,Reliance Industries,Energy,26.4,26.4,4.054054054054054,Fair Value 🟡
+TCS,Tata Consultancy Services,Technology,28.1,26.200000000000003,2.9577464788732395,Fair Value 🟡
+HDFCBANK,HDFC Bank,Financials,19.5,17.8,3.0434782608695654,Fair Value 🟡
+BHARTIAIRTEL,Bharti Airtel,Telecommunication,45.2,45.2,1.8947368421052633,Fair Value 🟡
+INFY,Infosys,Technology,24.3,26.200000000000003,3.6764705882352944,Fair Value 🟡
+ICICIBANK,ICICI Bank,Financials,17.8,17.8,3.7804878048780486,Fair Value 🟡
+ITC,ITC Limited,Consumer Goods,22.4,22.4,3.076923076923077,Fair Value 🟡
+SBIN,State Bank of India,Financials,11.2,17.8,4.583333333333333,Discounted 🟢
