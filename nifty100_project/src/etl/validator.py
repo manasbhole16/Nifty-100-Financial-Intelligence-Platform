@@ -16,6 +16,7 @@ flagged but the record is kept (per spec: "Flag row. Do not reject.").
 
 import os
 import pandas as pd
+# pyrefly: ignore [missing-import]
 from dotenv import load_dotenv
 
 from src.etl.normaliser import is_valid_year_format, is_valid_ticker_format
